@@ -36,3 +36,7 @@ print(lang[:-1])
 
 print("%d skills: %s and %s and %s" % (3, lang, skills[1], skills[2]))
 
+# Format Function
+
+print("skills: {0}, and {1}".format(lang, skills[1])) 
+print(f"skills: {lang}, and {skills[2]}")
